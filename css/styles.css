@@ -32,6 +32,8 @@
     align-items: center;
 }
 
+/*----catalog-section----*/
+
 .catalog-section {
     display: flex;
     justify-content: space-between;
@@ -59,6 +61,7 @@
 }
 
 .catalog-card__paragraph {
+    font-family: Arial;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
@@ -72,4 +75,30 @@
     text-transform: uppercase;
     color:#000000;
     text-decoration: none;
+}
+
+/*----how-it-works-section----*/
+
+.how-it-works-title {
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 32px
+}
+
+.how-it-works-card__image-container {
+    width: 80px;
+    height: 80px;
+    background:  #68B738;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works-card__paragraph {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
 }
