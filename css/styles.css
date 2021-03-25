@@ -13,6 +13,12 @@
     margin-bottom: 82px;
 }
 
+.main-title {
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+}
+
 .list {
     list-style: none;
     padding: 0;
@@ -79,11 +85,14 @@
 
 /*----how-it-works-section----*/
 
+.how-it-works-cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
 .how-it-works-title {
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 60px;
-    margin-bottom: 32px
+    margin-bottom: 32px;
 }
 
 .how-it-works-card__image-container {
@@ -93,6 +102,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .how-it-works-card__paragraph {
@@ -101,4 +111,62 @@
     font-size: 16px;
     line-height: 24px;
     color: #444444;
+    width: 95%;
 }
+
+.how-it-works-card {
+    width: 20%;
+    padding: 40px 0;
+    position: relative;
+}
+
+.how-it-works-card:first-child:after {
+    content: '1';
+    position: absolute;
+    font-weight: normal;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    top: 0;
+    right: 13%;
+    z-index: -1;
+}
+
+.how-it-works-card:nth-child(2):after {
+    content: '2';
+    position: absolute;
+    font-weight: normal;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    top: 0;
+    right: 13%;
+    z-index: -1;
+}
+
+.how-it-works-card:nth-child(3):after {
+    content: '3';
+    position: absolute;
+    font-weight: normal;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    top: 0;
+    right: 13%;
+    z-index: -1;
+}
+
+.how-it-works-card:nth-child(4):after {
+    content: '4';
+    position: absolute;
+    font-weight: normal;
+    font-size: 280px;
+    line-height: 280px;
+    color: #f2f2f2;
+    top: 0;
+    right: 13%;
+    z-index: -1;
+}
+
+/*----example-section----*/
+
